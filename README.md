@@ -1,17 +1,18 @@
 # MariaDB datubāžu nostadināšana
+
 Kods priekš namu parvaldnieks uzdevumām)
 ## MariaDB servera komandas
-apt update - lai atjaunot sistēmu
-apt install mariadb-server - lai intalēt MariaDB 
-mysql -u <lietotajs> -p - lai ielagoties MAriaDB iekšā 
-drop table; - lai nodzest izvelēto tabulu
-show tables; - lai parādīt databazes saturu
-select * from <tabulas nosaukums> - lai parādīt izvelētas tabulas saturu
-desc <tabulas nosaukums> - lai parādīt izvelētas tabulas struktūru
 
-
+1.apt update - lai atjaunot sistēmu
+2.apt install mariadb-server - lai intalēt MariaDB 
+3.mysql -u <lietotajs> -p - lai ielagoties MAriaDB iekšā 
+4.drop table; - lai nodzest izvelēto tabulu
+5.show tables; - lai parādīt databazes saturu
+6.select * from <tabulas nosaukums> - lai parādīt izvelētas tabulas saturu
+7.desc <tabulas nosaukums> - lai parādīt izvelētas tabulas struktūru
 
 ## Main kods databāzei
+
 CREATE TABLE ekas (
     id INT PRIMARY KEY auto_increment,
     adrese VARCHAR(255),
