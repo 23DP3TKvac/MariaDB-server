@@ -6,8 +6,8 @@ Kods priekš namu parvaldnieks uzdevumām)
 #### apt update - lai atjaunot sistēmu
 #### apt install mariadb-server - lai intalēt MariaDB 
 #### mysql -u <lietotajs> -p - lai ielagoties MAriaDB iekšā 
-#### drop table; - lai nodzest izvelēto tabulu
-#### show tables; - lai parādīt databazes saturu
+#### drop table <tabulas nosaukums>; - lai nodzest izvelēto tabulu
+#### show tables; - lai parādīt izvelētas datubāzes saturu
 #### select * from <tabulas nosaukums> - lai parādīt izvelētas tabulas saturu
 #### desc <tabulas nosaukums> - lai parādīt izvelētas tabulas struktūru
 
