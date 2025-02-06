@@ -1,6 +1,7 @@
 # MariaDB datubāžu nostadināšana
 
 Kods priekš namu parvaldnieks uzdevumām)
+
 ## MariaDB servera komandas
 
 #### apt update - lai atjaunot sistēmu
